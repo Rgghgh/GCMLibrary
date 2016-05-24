@@ -1,5 +1,7 @@
-# Google-Cloud-Messaging-Library
+# Google Cloud Messaging Library
 A library that makes Google Cloud Messaging simple.
+
+see [Google Cloud Messaging](https://developers.google.com/cloud-messaging/).
 
 ### How to install:
 1) Copy gcm package into your project and add [this config](https://developers.google.com/cloud-messaging/android/start) to the 'app' directory.
