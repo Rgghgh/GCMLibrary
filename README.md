@@ -54,11 +54,11 @@ public class MainActivity implements GcmHandler
 Gcm gcm = new Gcm(context, gcmHandler);
 ```
 
-	2.1) Make sure to set your API key: (the one you got from "How to install: #1)
-	```java
-	gcm.setApiKey(myApiKey);
-	```
-	This is important to do right after creating an instance.
+2.1) Make sure to set your API key: (the one you got from "How to install: #1)
+```java
+gcm.setApiKey(myApiKey);
+```
+This is important to do right after creating an instance.
 
 3) To obtain the unique key of this device, needed to send messages to it, use:
 ```java
