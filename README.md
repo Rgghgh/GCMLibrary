@@ -46,7 +46,7 @@ And you should be good to go.
 
 1) Implement the "GcmHandler" callback class and its methods. Can be implemented by an Activity.
 ```java
-public MainActivity implements GcmHandler
+public class MainActivity implements GcmHandler
 ```
 
 2) Create a "Gcm" instance:
