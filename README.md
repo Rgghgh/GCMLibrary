@@ -1,5 +1,5 @@
 # Google Cloud Messaging Library
-A library that makes Google Cloud Messaging simple.
+A library that makes Google Cloud Messaging between Android Devices simple.
 
 see [Google Cloud Messaging](https://developers.google.com/cloud-messaging/).
 
