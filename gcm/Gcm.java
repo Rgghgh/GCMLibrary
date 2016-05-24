@@ -65,7 +65,7 @@ public class Gcm
         this.handler.onGcmTokenReceived(token);
     }
 
-    private void setApiKey(String apiKey)
+    public void setApiKey(String apiKey)
     {
         this.apiKey = apiKey;
     }
