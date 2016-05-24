@@ -54,17 +54,17 @@ public class MainActivity implements GcmHandler
 Gcm gcm = new Gcm(context, gcmHandler);
 ```
 
-2.1) Make sure to set your API key: (the one you got from "How to install: #1)
-```java
-gcm.setApiKey(myApiKey);
-```
-This is important to do right after creating the instance.
+	2.1) Make sure to set your API key: (the one you got from "How to install: #1)
+	```java
+	gcm.setApiKey(myApiKey);
+	```
+	This is important to do right after creating an instance.
 
-3) To obtain the uniqe key of this device, this key is used to send messages to it use:
+3) To obtain the unique key of this device, needed to send messages to it, use:
 ```java
 gcm.requestDeviceToken();
 ```
-The token will we requested and returned to the GcnHandler's `onGcmTokenReceived()` method.
+The token will we requested and returned to the GcmHandler's `onGcmTokenReceived()` method.
 The token should behave like a "Phone number" and generaly does not change.
 
 4) Now you can send Messages!
